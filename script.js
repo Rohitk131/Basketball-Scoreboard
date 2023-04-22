@@ -45,5 +45,7 @@ function clearr(){
     count1 = 0;
     savEL.innerText = newString;
     savEL1.innerText = newString1;
+    countel2.textContent = 0;
+    countel.textContent = 0;
 
 }
