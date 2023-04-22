@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@300&family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background: url(https://wallpaperaccess.com/full/1092758.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(5px);
+}
+.main {
+  display: grid;
+  margin: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+.primary {
+  display: flex;
+  gap: 250px;
+  text-align: center;
+  justify-content: center;
+  border: 5px none;
+  border-radius: 25px;
+  background-color: rgb(176, 190, 227);
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(5px);
+  width: 100vh;
+  height: 50vh;
+  box-shadow: 5px 5px 70px 15px rgb(0, 0, 0);
+}
+.first,
+.second {
+  text-align: center;
+  font-family: "Cabin", sans-serif;
+  font-size: 120%;
+}
+.secondary {
+  margin-top: 50px;
+  text-align: center;
+  border: 5px none;
+  border-radius: 25px;
+  background-color: rgb(176, 191, 227);
+  backdrop-filter: blur(100px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vh;
+  height: 30vh;
+  align-items: center;
+  font-family: "Poppins";
+  box-shadow: 5px 5px 70px 15px rgb(0, 0, 0);
+}
+.score1,
+.score2 {
+  color: azure;
+  font-size: 150px;
+  background-color: rgb(16, 68, 189);
+  padding: 20px;
+  border: none;
+  border-radius: 15px;
+  font-family: "Big Shoulders Text", cursive;
+}
+.pts1,
+.pts2 {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+button {
+  border: none;
+  border-radius: 10px;
+  width: 50px;
+  height: 40px;
+  font-size: 20px;
+  font-family: "Orbitron", sans-serif;
+  transition: 5ms;
+}
+
+.secondary button {
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  font-family: "Orbitron", sans-serif;
+  margin-top: 10px;
+}
+h1 {
+  color: azure;
+}
+
+button:active {
+  transform: scale(0.9);
+}
