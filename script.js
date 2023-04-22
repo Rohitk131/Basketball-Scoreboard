@@ -37,3 +37,13 @@ function save(){
     newString1 = newString1 + count1 + "-";
     savEL1.innerText = newString1;
 }
+
+function clearr(){
+    newString = "";
+    newString1 = "";
+    count = 0;
+    count1 = 0;
+    savEL.innerText = newString;
+    savEL1.innerText = newString1;
+
+}
