@@ -11,24 +11,25 @@ body {
   backdrop-filter: blur(5px);
 }
 .main {
-  display: grid;
+  display: flex;
   margin: 20px;
   padding: 20px;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .primary {
   display: flex;
-  gap: 250px;
   text-align: center;
-  justify-content: center;
+  justify-content: space-around;
   border: 5px none;
   border-radius: 25px;
   background-color: rgb(176, 190, 227);
   background-repeat: no-repeat;
   background-size: cover;
   backdrop-filter: blur(5px);
-  width: 100vh;
-  height: 50vh;
+  width: 80%;
+  height: 410px;
   box-shadow: 5px 5px 70px 15px rgb(0, 0, 0);
 }
 .first,
@@ -38,19 +39,25 @@ body {
   font-size: 120%;
 }
 .secondary {
-  margin-top: 50px;
   text-align: center;
+  display: flex;
   border: 5px none;
+  padding: 2px;
   border-radius: 25px;
   background-color: rgb(176, 191, 227);
   backdrop-filter: blur(100px);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100vh;
-  height: 30vh;
-  align-items: center;
+  width: 80%;
+  margin: 0 0 120px 0;
+  align-items:center;
   font-family: "Poppins";
   box-shadow: 5px 5px 70px 15px rgb(0, 0, 0);
+  justify-content: space-evenly;
+
+}
+.one,.two{
+  display: flex;
 }
 .score1,
 .score2 {
@@ -97,3 +104,24 @@ h1 {
 button:active {
   transform: scale(0.9);
 }
+@media only screen and (max-width: 600px) {
+
+  .primary {
+    width: 80%;
+    height: 80%;
+  }
+
+  .secondary {
+    width: 80%;
+    height: 80%;
+  }
+
+  button {
+    width: 5vw;
+    height: 4vw;
+    font-size: 2vw
+  }
+
+}
+
+
